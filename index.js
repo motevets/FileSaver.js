@@ -14,6 +14,10 @@
 
 var saveAs = saveAs || (function(view) {
 	"use strict";
+    // do not try to compile if not in browser
+    if (!view){
+        return;
+    }
 	// IE <10 is explicitly unsupported
 	if (typeof navigator !== "undefined" && /MSIE [1-9]\./.test(navigator.userAgent)) {
 		return;
