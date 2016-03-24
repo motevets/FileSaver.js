@@ -1,14 +1,13 @@
 {
-  "name": "filesaverjs",
-  "version": "0.2.1",
+ "name": "browser-save-as",
+ "version": "1.1.20160319",
   "description": "An HTML5 saveAs() FileSaver implementation",
-  "main": "FileSaver.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Keepsite/FileSaver.js.git"
+    "url": "https://github.com/motevets/browser-save-as.git"
   },
   "keywords": [
     "filesaver",
@@ -20,9 +19,13 @@
     "downloadjs"
   ],
   "author": "Eli Grey",
+  "contributors": [{
+    "name": "Tom Dunlap",
+    "email": "stevetom@motevets.com"
+  }],
   "license": "(MIT OR X11)",
   "bugs": {
-    "url": "https://github.com/eligrey/FileSaver.js/issues"
+    "url": "https://github.com/motevets/browser-save-as/issues"
   },
-  "homepage": "https://github.com/Keepsite/FileSaver.js"
+  "homepage": "https://github.com/motevets/browser-save-as"
 }
